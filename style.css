@@ -3,11 +3,11 @@ body {
 }
 h1 {
   
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: overline;
-  text-indent: 50px;
-  text-shadow: 2px 2px 5px LightCyan;
+  text-indent: 30px;
+  text-shadow: 5px 5px 5px LightCyan;
   background-color: DarkGrey;
 }
  
