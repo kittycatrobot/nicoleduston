@@ -15,7 +15,7 @@ h2 {
   color: black;
   text-align: center;
   text-indent: 20px;
-  
+  margin: 20;
 }
 ul {
   list-style-type: none;
