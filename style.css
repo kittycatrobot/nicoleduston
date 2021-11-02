@@ -18,9 +18,10 @@ h2 {
   margin: 200;
 }
 p {
-  margin: 200;
+ 
   color: black;
-   text-indent: 30px;
+     margin: 20px;
+  padding: 20px;
   text-align: center;
 
 }
