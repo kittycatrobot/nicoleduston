@@ -17,6 +17,11 @@ h2 {
   text-indent: 50px;
   margin: 200;
 }
+p {
+  margin: 200;
+  color: black;
+  
+}
 ul {
   list-style-type: none;
   margin: 0;
