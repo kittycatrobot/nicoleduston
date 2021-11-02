@@ -20,7 +20,9 @@ h2 {
 p {
   margin: 200;
   color: black;
-  
+   text-indent: 30px;
+  text-align: center;
+
 }
 ul {
   list-style-type: none;
