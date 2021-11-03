@@ -26,25 +26,24 @@ color: black;
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;  
-  width: 200px;
-  background-color: #f1f1f1;
+  padding: 0;
   overflow: hidden;
-
+  background-color: #333;
 }
 
 li {
   float: left;
 }
- 
- a {
+
+li a {
   display: block;
-  padding: 8px;
-  background-color: #dddddd;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-/* Change the link color on hover */
+/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #555;
-  color: white;
+  background-color: #111;
 }
