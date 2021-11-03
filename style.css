@@ -37,7 +37,11 @@ li {
   float: left;
 }
  
- 
+ a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
 
 /* Change the link color on hover */
 li a:hover {
