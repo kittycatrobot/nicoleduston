@@ -52,7 +52,7 @@ li a:hover {
   background-color: #111;
 }
 
-main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+sticky + .content {
+  padding-top: 60px;
 }
   
