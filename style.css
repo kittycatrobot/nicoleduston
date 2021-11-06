@@ -25,67 +25,60 @@ color: black;
  
 }
 /* The navigation menu */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  
 
-/* Navigation links */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  <link rel="stylesheet" href="style.css">
 
-/* The subnavigation menu */
-.subnav {
-  float: left;
-  overflow: hidden;
-}
+  <style>
+<link rel="stylesheet" href="style.css">
 
-/* Subnav button */
-.subnav .subnavbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
 
-/* Add a red background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: LightGray;
-}
 
-/* Style the subnav content - positioned absolute */
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: LightGray;
-  width: 100%;
-  z-index: 1;
-}
+   
 
-/* Style the subnav links */
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
+p1   {color: black;}
+    
+div {
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
 }
+</style>
 
-/* Add a grey background color on hover */
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
+<title>Nicole Duston</title>
+</head>
 
+<body>
+
+<h1> Nicole Duston's </h1>
+ 
+<! NAV VAR> 
+ 
+<ul>
+  <li><a href="index.html">Homepage</a></li>
+  <li><a href="Resume.html">Resume </a></li>
+   <li><a href="activities.html">Activities</a></li>
+   <li><a href="coverletter.html">Cover Letter</a></li>
+ <li><a href="ref.html">References </a></li>
+   <li><a href="WorkSamples.html">WorkSamples</a></li>
+          
+                             
+</ul>
+  
+  
+        <h2> Nicole Duston </h2>
+  
+  <img src=" DustonNicole22269-012.jpg" alt="photo" width="500" height="800"style="vertical-align:middle;margin:25px 450px">
+
+
+
+</body>
+</html>
+ 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
