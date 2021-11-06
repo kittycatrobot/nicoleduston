@@ -25,68 +25,33 @@ color: black;
  
 }
 /* The navigation menu */
-<!DOCTYPE html>
-<html>
-<head>
-  
-
-  <link rel="stylesheet" href="style.css">
-
-  <style>
-<link rel="stylesheet" href="style.css">
-
-
-
-   
-
-p1   {color: black;}
-    
-div {
-  padding-top: 60px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 30px;
+ul {
+  list-style-type: none;
+  margin: 20;
+  width: 100%; /* Full width */
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-</style>
 
-<title>Nicole Duston</title>
-</head>
-
-<body>
-
-<h1> Nicole Duston's </h1>
- 
-<! NAV VAR> 
- 
-<ul>
-  <li><a href="index.html">Homepage</a></li>
-  <li><a href="Resume.html">Resume </a></li>
-   <li><a href="activities.html">Activities</a></li>
-   <li><a href="coverletter.html">Cover Letter</a></li>
- <li><a href="ref.html">References </a></li>
-   <li><a href="WorkSamples.html">WorkSamples</a></li>
-          
-                             
-</ul>
-  
-  
-        <h2> Nicole Duston </h2>
-  
-  <img src=" DustonNicole22269-012.jpg" alt="photo" width="500" height="800"style="vertical-align:middle;margin:25px 450px">
-
-
-
-</body>
-</html>
- 
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
-  display: block;
-
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
-  display: block;
+li {
+  float: left;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align:   right: 150px;
+;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 
 
   
